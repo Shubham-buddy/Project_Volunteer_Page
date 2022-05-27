@@ -1,0 +1,20 @@
+.slider{
+  background: url("../images/bg/banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: 10% 0%;
+  padding:100px 0 ;
+  position: relative;
+  @extend .overly;
+  .block{
+    h1{
+      font-size:80px;
+      line-height: 80px;
+      color: $light;
+
+    }
+    p{
+      color:#b9b9b9;
+    }
+   
+  }
+}
